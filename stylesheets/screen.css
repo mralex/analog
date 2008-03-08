@@ -74,3 +74,9 @@ div {
 	border-left: 4px solid #6B6E99;
 }
 
+#content .post .meta {
+	font-size: 0.9em;
+}
+#content .post .meta .date {
+	color: #888;
+}
