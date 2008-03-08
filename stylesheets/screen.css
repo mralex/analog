@@ -87,6 +87,11 @@ div {
 	border-left: 4px solid #989976;
 }
 
+#content .post .image h1 {
+	color: #aaa;
+	font-weight: normal;
+}
+
 #content .post .meta {
 	font-size: 0.9em;
 }
