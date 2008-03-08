@@ -58,5 +58,19 @@ div {
 	border-top: 1px solid #6C2A23;
 	clear: left;
 	margin-top: 0.1em;
+	padding-top: 1em;
+}
+
+#content .post {
+	margin-bottom: 0.2em;
+}
+
+#content .post .item {
+	padding: 0.5em 0;
+	padding-left: 2em;
+}
+
+#content .post .text {
+	border-left: 4px solid #6B6E99;
 }
 
