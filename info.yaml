@@ -1,0 +1,9 @@
+name: RedProcess Analog
+description: RedProcess theme for the Chyrp blog engine
+url: http://redprocess.com
+version: 0.0.1
+author:
+  name: Alex Roberts
+  url: http://redprocess.com
+	
+# 0.0.1: Initial version (Chyrp 1.1.3)
