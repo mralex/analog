@@ -21,6 +21,7 @@ div {
 
 #title {
 	/*  */
+	font-size: 150%;
 	color: #993222;
 	border-bottom: 4px solid #000;
 }
@@ -62,7 +63,11 @@ div {
 }
 
 #content .post {
-	margin-bottom: 0.2em;
+	margin-bottom: 0.5em;
+}
+
+#content .post p {
+	font-size: 1.1em;
 }
 
 #content .post .item {
@@ -70,8 +75,16 @@ div {
 	padding-left: 2em;
 }
 
+#content .post .page {
+	padding-left: 2.4em;
+}
+
 #content .post .text {
 	border-left: 4px solid #6B6E99;
+}
+
+#content .post .image {
+	border-left: 4px solid #989976;
 }
 
 #content .post .meta {
