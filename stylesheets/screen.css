@@ -67,11 +67,13 @@ div {
 }
 
 #content .dateset {
-	margin-bottom: 0.1em;
-	border-left: 2em solid #ddd;
-	padding-left: 0.4em;
-	color: #888;
+	margin-top: 2.5em;
+	margin-bottom: 0.5em;
+	border-left: 1em solid #ddd;
+	padding-left: 1.4em;
+	color: #aaa;
 }
+#content .dateset h1 { margin: 0;}
 
 #content .post p {
 	font-size: 1.1em;
@@ -107,7 +109,7 @@ div {
 }
 
 #footer {
-	border-top: 4px solid #888;
+	border-top: 1px solid #888;
 	color: #555;
 	padding: 1em;
 	margin-top: 5em;
