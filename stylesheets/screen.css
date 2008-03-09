@@ -66,6 +66,13 @@ div {
 	margin-bottom: 0.5em;
 }
 
+#content .dateset {
+	margin-bottom: 0.1em;
+	border-left: 2em solid #ddd;
+	padding-left: 0.4em;
+	color: #888;
+}
+
 #content .post p {
 	font-size: 1.1em;
 }
@@ -80,11 +87,11 @@ div {
 }
 
 #content .post .text {
-	border-left: 4px solid #6B6E99;
+	border-left: 0.4em solid #6B6E99;
 }
 
 #content .post .image {
-	border-left: 4px solid #989976;
+	border-left: 0.4em solid #989976;
 }
 
 #content .post .image h1 {
