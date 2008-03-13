@@ -90,11 +90,15 @@ div {
 }
 
 #content .post .text {
-	border-left: 0.4em solid #6B6E99;
+	border-left: 0.4em solid #4775AA;
 }
 
 #content .post .image {
-	border-left: 0.4em solid #989976;
+	border-left: 0.4em solid #A8A850;
+}
+
+#content .post .link {
+	border-left: 0.4em solid #964B49;
 }
 
 #content .post .image h1 {
