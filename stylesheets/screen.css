@@ -50,7 +50,7 @@ div {
 	text-decoration: none;
 	display: block;
 	padding: 0.5em;
-	border-right: 1px solid #999;
+	/*border-right: 1px solid #999;*/
 }
 #nav ul li a:hover {
 	color: #f00;
@@ -89,15 +89,15 @@ div {
 	padding-left: 2.4em;
 }
 
-#content .post .text {
+#content .post .text, #nav ul li.text {
 	border-left: 0.4em solid #4775AA;
 }
 
-#content .post .image {
+#content .post .image, #nav ul li.image {
 	border-left: 0.4em solid #A8A850;
 }
 
-#content .post .link {
+#content .post .link, #nav ul li.link {
 	border-left: 0.4em solid #964B49;
 }
 
