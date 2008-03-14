@@ -1,7 +1,7 @@
 
 body {
-	font: 65.5% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	background-color: #e6e6e6;
+	font: 10px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #374052;
 }
 
 div {
@@ -11,9 +11,9 @@ div {
 #box {
 	border: 1px solid #ddd;
 	background-color: #fff;
-	width: 60em;
+	width: 63em;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 2em;
 }
 
 #head {
@@ -24,7 +24,8 @@ div {
 	/*  */
 	font-size: 150%;
 	color: #993222;
-	border-bottom: 4px solid #000;
+	border-bottom: 5px solid #422;
+	margin-bottom: 1em;
 }
 #nav {
 	/*  */
@@ -42,12 +43,14 @@ div {
 }
 #nav ul li {
 	float: left;
-	margin-right: 0.1em;
+	margin-right: 0.5em;
+	border: 1px solid #ddd;
+	border-left-width: 4px
 }
 
 #nav ul li a {
 	color: #000;
-	width: 10em;
+	width: 8em;
 	text-decoration: none;
 	display: block;
 	padding: 0.5em;
@@ -58,7 +61,7 @@ div {
 }
 
 #content {
-	border-top: 1px solid #6C2A23;
+	/*border-top: 1px solid #6C2A23;*/
 	clear: left;
 	margin-top: 0.1em;
 	padding-top: 1em;
