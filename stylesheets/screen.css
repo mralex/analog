@@ -1,17 +1,26 @@
 
 body {
-	font: 10px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font: 12px Helvetica, Arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #222;
 	background-color: #374052;
+	line-height: 1.5em;
 }
 
 div {
 	/*border: 1px solid #999;*/
 }
 
+blockquote {
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 1.1em;
+	color: #000;
+}
+
 #box {
 	border: 1px solid #ddd;
 	background-color: #fff;
-	width: 63em;
+	width: 54em;
 	margin: 0 auto;
 	padding: 2em;
 }
@@ -50,10 +59,11 @@ div {
 
 #nav ul li a {
 	color: #000;
-	width: 8em;
+	width: 6em;
 	text-decoration: none;
 	display: block;
-	padding: 0.5em;
+	padding: 0.33em;
+	padding-left: 0.5em;
 	/*border-right: 1px solid #999;*/
 }
 #nav ul li a:hover {
@@ -74,9 +84,9 @@ div {
 #content .dateset {
 	margin-top: 2.5em;
 	margin-bottom: 0.5em;
-	border-left: 1em solid #ddd;
+	border-left: 0.9em solid #ddd;
 	padding-left: 1.4em;
-	color: #aaa;
+	color: #afafaf;
 }
 #content .dateset h1 { margin: 0;}
 
@@ -94,19 +104,20 @@ div {
 }
 
 #content .post .text, #nav ul li.text {
-	border-left: 0.4em solid #4775AA;
+	border-left: 0.3em solid #4775AA;
 }
 
 #content .post .image, #nav ul li.image {
-	border-left: 0.4em solid #A8A850;
+	border-left: 0.3em solid #A8A850;
 }
 
 #content .post .link, #nav ul li.link {
-	border-left: 0.4em solid #964B49;
+	border-left: 0.3em solid #964B49;
 }
 
-#content .post .image h1 {
-	color: #aaa;
+#content .post /*.image*/ h1 {
+	font-size: 2.25em;
+	color: #777;
 	font-weight: normal;
 }
 
