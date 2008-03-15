@@ -1,7 +1,7 @@
 
 body {
 	font: 12px Helvetica, Arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	color: #222;
+	color: #111;
 	background-color: #374052;
 	line-height: 1.5em;
 }
@@ -84,11 +84,11 @@ blockquote {
 #content .dateset {
 	margin-top: 2.5em;
 	margin-bottom: 0.5em;
-	border-left: 0.9em solid #ddd;
-	padding-left: 1.4em;
+	/*border-left: 0.9em solid #ddd;*/
+	padding-left: 2.45em;
 	color: #afafaf;
 }
-#content .dateset h1 { margin: 0;}
+#content .dateset h1 { margin: 0; font-size: 1.5em;}
 
 #content .post p {
 	font-size: 1.1em;
