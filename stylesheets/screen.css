@@ -20,6 +20,24 @@ blockquote {
 	color: #000;
 }
 
+h1 {
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+a {
+	color: #900;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dotted #CD8D8D;
+}
+
 #box {
 	width: 71em;
 	margin: 0 auto;
@@ -34,11 +52,16 @@ blockquote {
 }
 
 #sidebar {
-	width: 18em;
+	width: 15em;
 	float: left;
 	margin-top: 3.66em;
-	margin-left: 2em;
+	margin-left: 5em;
 	color: #666;
+}
+
+#sidebar p {
+	margin-top: 0;
+	margin-bottom: 1.5em;
 }
 
 #head {
