@@ -31,11 +31,20 @@ blockquote {
 
 #title {
 	/*  */
-	font-size: 150%;
-	color: #993222;
-	border-bottom: 5px solid #422;
+	/*color: #993222;*/
+	padding-bottom: 1.75em;
+	border-bottom: 5px solid #993222;
 	margin-bottom: 1em;
 }
+#title h1 {
+	font-size: 3.25em;
+	margin-bottom: 0.2em;
+}
+#title small {
+	font-size: 0.95em;
+	color: #993222;
+}
+
 #nav {
 	/*  */
 	margin: 0.1em 0;
