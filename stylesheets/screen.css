@@ -21,11 +21,24 @@ blockquote {
 }
 
 #box {
+	width: 71em;
+	margin: 0 auto;
+}
+
+#main {
 	/*border: 1px solid #ddd;*/
 	background-color: #fff;
-	width: 54em;
-	margin: 0 auto;
-	padding: 2em;
+	width: 50em;
+	float: left;
+	margin-right: 0.5em;
+}
+
+#sidebar {
+	width: 18em;
+	float: left;
+	margin-top: 3.66em;
+	margin-left: 2em;
+	color: #666;
 }
 
 #head {
@@ -65,6 +78,7 @@ blockquote {
 #nav ul li {
 	float: left;
 	margin-right: 0.5em;
+	margin-bottom: 0.5em;
 	border: 1px solid #ddd;
 	border-left-width: 4px
 }
