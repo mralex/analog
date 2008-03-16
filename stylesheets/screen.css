@@ -169,16 +169,20 @@ a:hover {
 	padding-left: 2.4em;
 }
 
+#content .post .text, #content .post .image, #content .post .link {
+	border-left: 0.3em solid #ddd;
+}
+
 #content .post .text, #nav ul li.text {
-	border-left: 0.3em solid #4775AA;
+	border-left-color: #4775AA;
 }
 
 #content .post .image, #nav ul li.image {
-	border-left: 0.3em solid #A8A850;
+	border-left-color: #A8A850;
 }
 
 #content .post .link, #nav ul li.link {
-	border-left: 0.3em solid #964B49;
+	border-left-color: #964B49;
 }
 
 #content .post /*.image*/ h1 {
