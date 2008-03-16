@@ -64,6 +64,22 @@ a:hover {
 	margin-bottom: 1.5em;
 }
 
+#sidebar ul {
+	margin: 0 0 1.5em 0;
+	padding: 0.3em;
+	list-style: none;
+}
+
+#sidebar ul li {
+	margin-left: 0em;
+	padding: 0.25em;
+	border-bottom: 1px solid #ddd;
+}
+
+#sidebar ul li span {
+	font-size: 0.9em;
+}
+
 #head {
 	border-color: #f00;
 }
@@ -124,6 +140,7 @@ a:hover {
 	clear: left;
 	margin-top: 0.1em;
 	padding-top: 1em;
+	margin-bottom: 5em;
 }
 
 #content .post {
@@ -178,6 +195,7 @@ a:hover {
 }
 
 #footer {
+	clear: both;
 	border-top: 1px solid #888;
 	color: #555;
 	padding: 1em;
